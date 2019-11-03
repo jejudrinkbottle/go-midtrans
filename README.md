@@ -25,8 +25,8 @@ Please proceed there for more detail on how to run the example.
 
 ```go
     midclient := midtrans.NewClient()
-    midclient.ServerKey = "YOUR-VT-SERVER-KEY"
-    midclient.ClientKey = "YOUR-VT-CLIENT-KEY"
+    midclient.ServerKey = "SB-Mid-server-vLwFbGGLj2TzJb42YLBIzzAC"
+    midclient.ClientKey = "SB-Mid-client-R7OBFX9gjFOFnNd4"
     midclient.APIEnvType = midtrans.Sandbox
 
     coreGateway := midtrans.CoreGateway{
